@@ -1,8 +1,8 @@
 name: epg copy
 
 on:
-  schedule:
-      - cron: '50 */8 * * *'
+  # schedule:
+  #     - cron: '50 */8 * * *'
   workflow_dispatch:
 
 jobs:
