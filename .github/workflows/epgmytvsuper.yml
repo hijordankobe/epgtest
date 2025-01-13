@@ -2,8 +2,8 @@ name: epgmytvsuper
 
 # 每小时执行一次
 on:
-  schedule:
-    - cron: '38 */8 * * *'  # 每小时执行一次
+  # schedule:
+  #   - cron: '38 */8 * * *'  # 每小时执行一次
   workflow_dispatch:  # 允许手动触发
 
 jobs:
